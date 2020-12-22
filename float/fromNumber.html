@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('fromNumber',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"fromNumber";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="fromNumber">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="fromNumber">
+    <p>A simple node that converts from Number to IEEE 754 (float32)</p>
+</script>

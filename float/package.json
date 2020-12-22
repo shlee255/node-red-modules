@@ -1,0 +1,17 @@
+{
+  "name": "float",
+  "version": "1.0.0",
+  "description": "Convert IEEE 754 (float32) to/from Number",
+  "main": "fromNumber.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lee Shui Hong",
+  "license": "ISC",
+  "node-red" : {
+    "nodes": {
+        "fromNumber": "fromNumber.js",
+        "toNumber": "toNumber.js"
+    }
+  }  
+}
