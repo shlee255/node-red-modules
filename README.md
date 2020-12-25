@@ -7,3 +7,10 @@ https://github.com/node-red/node-red-dashboard/wiki/Creating-New-Dashboard-Widge
 
 ## float
 Convert IEEE 754 (float32) to/from Javascript Number
+
+## Calendar Widget
+Calendar Widget based on 
+https://github.com/node-red/node-red-dashboard/wiki/Creating-New-Dashboard-Widgets
+
+
+
